@@ -1,1 +1,1 @@
-another = 'fjopfommasdlkkll'
+text = 'люблю твои пуки'
