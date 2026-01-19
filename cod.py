@@ -1,1 +1,1 @@
-text = 'люблю твои пуки'
+print('Hello world')
