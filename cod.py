@@ -1,6 +1,7 @@
 s = input().split()
-a = list(map(float, input().split()))
-sr = sum(a)/len(a)
-for i in range(len(a)):
-    if a[i] > sr:
-        print(s[i])
+a = input().split()
+sr = 0
+for i in a:
+    if a in s:
+        sr += 1
+print(sr)
