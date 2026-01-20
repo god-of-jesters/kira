@@ -1,7 +1,8 @@
-s = input().split()
 a = input().split()
-sr = 0
+b = input().split()
+c = input().split()
+s = 0
 for i in a:
-    if i in s:
-        sr += 1
-print(sr)
+    if i in b and i in c:
+        s += 1
+print(s)
