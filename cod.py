@@ -1,8 +1,5 @@
-a = input().split(', ')
-b = input().split(', ')
-c = input().split(', ')
-s = 0
-for i in c:
-    if i in a or i in b:
-        s += 1
-print(s)
+countries = {}
+n = int(input())
+for i in countries:
+    if n >= len(countries[i]):
+        print(i)
