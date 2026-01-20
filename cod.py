@@ -8,7 +8,7 @@ i = input()
 
 if i[:2] in fd and len(i) == 16:
     print(just_mir)
-elif i[:2] in fd and len(i) > 16:
+elif len(i) > 16:
     print(no_card)
 else:
     print(visa_mastercard)
