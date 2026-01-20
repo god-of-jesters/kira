@@ -1,5 +1,5 @@
 countries = {}
 n = int(input())
 for i in countries:
-    if n >= len(countries[i]):
+    if len(countries[i]) >= n:
         print(i)
