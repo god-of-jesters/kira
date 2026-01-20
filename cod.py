@@ -1,1 +1,2 @@
-print('Hello world')
+sum = 12
+print(sum)
