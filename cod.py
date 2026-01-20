@@ -1,3 +1,7 @@
-a = input()
+a = input().split(';')
 c = input()
-print(a.count(c))
+s = 0
+for i in a:
+    if i.split('|')[2] == c:
+        s += 1
+print(s)
