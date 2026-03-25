@@ -1,12 +1,9 @@
-#1  Ответ 3 и 4 
-#2  Ответ 1, 2, 3
-#3  Ответ 2, 3
-#4 
-to_buy = 'Покупаем!'
-not_to_buy = 'К сожалению, сегодня без покупок'
+#5 
 a = input()
-b = input().split(', ')
-if b[1] == a:
-    print(to_buy)
-else:
-    print(not_to_buy)
+c = 0
+while a != 'конец':
+    b = a.split(', ')
+    if b[1] == 'посетила':
+        c += 1
+    a = input()
+print(c)
