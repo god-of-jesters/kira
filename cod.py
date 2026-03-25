@@ -1,3 +1,5 @@
 print("Привет кирюша")
-for i in range(20):
-    print("С любовью от Димы")
+i = 0
+l = []
+for j in l:
+    i += j
