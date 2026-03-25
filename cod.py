@@ -1,1 +1,1 @@
-print("Hello world")
+#1  Ответ 2, 3 и 4 
