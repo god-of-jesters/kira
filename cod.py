@@ -1,16 +1,15 @@
-def revenue(data):
-    total = 0
-    count = 0
+x = int(input())
 
-    for item in data:
-        parts = item.split(', ')
-        date = parts[0]
-        money = float(parts[1])
+f = open("markets_data.csv", "r", encoding="utf-8")
 
-        month = date.split('/')[1]
+for line in f:
+    s = line.strip()
+    parts = s.split(", ")
 
-        if month == '12':
-            total += money
-            count += 1
+    city = parts[0]
+    money = int(parts[3])
 
-    return total / count
+    if city == "Москва" and money > x:
+        print(s)
+
+f.close()
